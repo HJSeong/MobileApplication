@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">모두의 Rehearsal</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_tab_name">홈</string>
+    <string name="whatshot_tab_name">인기 급상승 동영상</string>
+    <string name="subscription_tab_name">구독정보</string>
+    <string name="person_tab_name">계정</string>
+</resources>
