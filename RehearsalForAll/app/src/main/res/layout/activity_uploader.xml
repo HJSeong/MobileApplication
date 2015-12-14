@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <FrameLayout
+        android:id="@+id/videoSurfaceContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+    <EditText
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:id="@+id/title"
+        android:layout_above="@+id/description"
+        android:layout_alignStart="@+id/description"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:text="설명"
+        android:id="@+id/description"
+        android:layout_above="@+id/category"
+        android:layout_alignStart="@+id/category"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:text="카테고리"
+        android:id="@+id/category"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp" />
+
+</RelativeLayout>
